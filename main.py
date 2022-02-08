@@ -1,12 +1,12 @@
-h = 175
-w = 65
-s = 7000
-t = 300
-l = h / 4 + 0.37
-dis = l * s
-u = dis / t
-rashod = 0.035 * w + (u**2 / h) * 0.029 * w
-col = rashod * t
-print(dis)
+HEIGHT = 175
+WEIGHT = 65
+steps = 7000
+time = 300
+length = HEIGHT / 4 + 0.37
+dist = length * steps
+speed = dist / time
+rashod = 0.035 * WEIGHT + (speed**2 / HEIGHT) * 0.029 * WEIGHT
+col = rashod * time
+print(dist)
 print(col)
 
