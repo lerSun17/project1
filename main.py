@@ -9,4 +9,10 @@ rashod = 0.035 * WEIGHT + (speed**2 / HEIGHT) * 0.029 * WEIGHT
 col = rashod * time
 print(dist)
 print(col)
+if (dist > 4):
+    print("Отличный результат!")
+elif (dist < 4 | dist > 2):
+    print("Неплохо, но можно лучше!")
+else:
+    print("Ходи больше, это полезно для здоровья!")
 
